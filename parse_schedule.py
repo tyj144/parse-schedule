@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import re
 from event import Event
 
-html = open('schedule.html', 'r').read()
+html = open('schedule.txt', 'r').read()
 soup = BeautifulSoup(html, 'html.parser')
 
 schedule = []
